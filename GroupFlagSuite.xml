@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="TestExecution">
+		<groups>
+
+			<define name="RegressionTestCase">
+				<include name="Functional Testing"></include>
+				<include name="Smoke Tetsing"></include>
+				<include name="Integration Testing"></include>
+			</define>
+			<run>
+				<exclude name="Integration Testing"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGFlag.Flag7" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

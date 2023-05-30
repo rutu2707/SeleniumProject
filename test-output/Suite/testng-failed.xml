@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="Var-username" value="admin"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="Var-password" value="manager"/>
+    <parameter name="url" value="http://desktop-7qk9up4/login.do"/>
     <classes>
-      <class name="testNGPackage2.DemoTest2">
+      <class name="testNGExecution.SelectBrowser">
         <methods>
-          <include name="test2Method3"/>
+          <include name="method1" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testNGPackage2.DemoTest2 -->
+      </class> <!-- testNGExecution.SelectBrowser -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
