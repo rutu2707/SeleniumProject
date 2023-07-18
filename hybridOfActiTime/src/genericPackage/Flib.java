@@ -36,11 +36,11 @@ public class Flib implements IAutoConstant {
 
 	}
 
-	public void writeCellData(String EXCEL_PATH, String fileName, int rowCount, int cellCount, String value) throws IOException {
+	public void writeCellData(String EXCEL_PATH, String sheetName, int rowCount, int cellCount, String value) throws IOException {
 
 		FileInputStream fis = new FileInputStream(EXCEL_PATH);
 		Workbook wb = WorkbookFactory.create(fis);
-		Sheet sheet = wb.getSheet(fileName);
+		Sheet sheet = wb.getSheet(sheetName);
 		Row row = sheet.getRow(rowCount);
 		Cell cell = row.createCell(cellCount);
 		cell.setCellValue(value);
