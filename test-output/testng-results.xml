@@ -1,149 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="18" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Functional Test 1]]>
-    </line>
-    <line>
-      <![CDATA[Functional Test 2]]>
-    </line>
-    <line>
-      <![CDATA[Functional Test 3 ]]>
-    </line>
-    <line>
-      <![CDATA[Functional Test 4 ]]>
-    </line>
-    <line>
-      <![CDATA[Functional Test 5 ]]>
-    </line>
-    <line>
-      <![CDATA[Functional Test 6 ]]>
-    </line>
-    <line>
-      <![CDATA[Somke Test 1 ]]>
-    </line>
-    <line>
-      <![CDATA[Somke Test 2 ]]>
-    </line>
-    <line>
-      <![CDATA[Somke Test 3 ]]>
-    </line>
-    <line>
-      <![CDATA[Somke Test 4 ]]>
-    </line>
-    <line>
-      <![CDATA[Somke Test 5 ]]>
-    </line>
-    <line>
-      <![CDATA[Somke Test 6 ]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-05-28T19:44:08 IST" name="Suite" finished-at="2023-05-28T19:44:08 IST" duration-ms="96">
+  <suite started-at="2023-07-18T23:30:40 IST" name="Suite" finished-at="2023-07-18T23:31:55 IST" duration-ms="74793">
     <groups>
-      <group name="Smoke Tetsing">
-        <method signature="Flag7.methodST1()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodST1" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodST2()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodST2" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodST3()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodST3" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodST4()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodST4" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodST5()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodST5" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodST6()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodST6" class="testNGFlag.Flag7"/>
-      </group> <!-- Smoke Tetsing -->
-      <group name="Functional Testing">
-        <method signature="Flag7.methodFT1()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodFT1" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodFT2()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodFT2" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodFT3()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodFT3" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodFT4()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodFT4" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodFT5()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodFT5" class="testNGFlag.Flag7"/>
-        <method signature="Flag7.methodFT6()[pri:0, instance:testNGFlag.Flag7@be35cd9]" name="methodFT6" class="testNGFlag.Flag7"/>
-      </group> <!-- Functional Testing -->
     </groups>
-    <test started-at="2023-05-28T19:44:08 IST" name="TestExecution" finished-at="2023-05-28T19:44:08 IST" duration-ms="96">
-      <class name="testNGFlag.Flag7">
-        <test-method signature="methodFT1()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodFT1" finished-at="2023-05-28T19:44:08 IST" duration-ms="8" status="PASS">
+    <test started-at="2023-07-18T23:30:40 IST" name="ChromeTest" finished-at="2023-07-18T23:31:07 IST" duration-ms="26899">
+      <class name="testNGExecution.SelectBrowser">
+        <test-method signature="method1(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGExecution.SelectBrowser@2dde1bff]" started-at="2023-07-18T23:30:40 IST" name="method1" finished-at="2023-07-18T23:31:07 IST" duration-ms="26848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://desktop-7qk9up4/login.do]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Functional Test 1]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- methodFT1 -->
-        <test-method signature="methodFT2()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodFT2" finished-at="2023-05-28T19:44:08 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- method1 -->
+      </class> <!-- testNGExecution.SelectBrowser -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-07-18T23:31:07 IST" name="EdgeTest" finished-at="2023-07-18T23:31:55 IST" duration-ms="47119">
+      <class name="testNGExecution.SelectBrowser">
+        <test-method signature="method1(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGExecution.SelectBrowser@7e7be63f]" started-at="2023-07-18T23:31:07 IST" name="method1" finished-at="2023-07-18T23:31:55 IST" duration-ms="47110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://desktop-7qk9up4/login.do]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Functional Test 2]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- methodFT2 -->
-        <test-method signature="methodFT3()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodFT3" finished-at="2023-05-28T19:44:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Functional Test 3 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodFT3 -->
-        <test-method signature="methodFT4()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodFT4" finished-at="2023-05-28T19:44:08 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Functional Test 4 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodFT4 -->
-        <test-method signature="methodFT5()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodFT5" finished-at="2023-05-28T19:44:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Functional Test 5 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodFT5 -->
-        <test-method signature="methodFT6()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodFT6" finished-at="2023-05-28T19:44:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Functional Test 6 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodFT6 -->
-        <test-method signature="methodST1()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodST1" finished-at="2023-05-28T19:44:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Somke Test 1 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodST1 -->
-        <test-method signature="methodST2()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodST2" finished-at="2023-05-28T19:44:08 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Somke Test 2 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodST2 -->
-        <test-method signature="methodST3()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodST3" finished-at="2023-05-28T19:44:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Somke Test 3 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodST3 -->
-        <test-method signature="methodST4()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodST4" finished-at="2023-05-28T19:44:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Somke Test 4 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodST4 -->
-        <test-method signature="methodST5()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodST5" finished-at="2023-05-28T19:44:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Somke Test 5 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodST5 -->
-        <test-method signature="methodST6()[pri:0, instance:testNGFlag.Flag7@be35cd9]" started-at="2023-05-28T19:44:08 IST" name="methodST6" finished-at="2023-05-28T19:44:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Somke Test 6 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- methodST6 -->
-      </class> <!-- testNGFlag.Flag7 -->
-    </test> <!-- TestExecution -->
+        </test-method> <!-- method1 -->
+      </class> <!-- testNGExecution.SelectBrowser -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>

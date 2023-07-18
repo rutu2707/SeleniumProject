@@ -12,8 +12,8 @@
   </test> <!-- Test -->
   
   
-  <test thread-count="5" name="FirefoxTest">
-  <parameter name="browser" value="firefox"></parameter>
+  <test thread-count="5" name="EdgeTest">
+  <parameter name="browser" value="edge"></parameter>
   <parameter name="url" value="http://desktop-7qk9up4/login.do"></parameter>
   <parameter name="Var-username" value="admin"></parameter>
   <parameter name="Var-password" value="manager"></parameter>
